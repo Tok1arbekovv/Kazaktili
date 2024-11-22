@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учителя казахского языка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #2d89ef;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2d89ef;
+            font-weight: bold;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .teacher {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .teacher img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        footer {
+            background: #2d89ef;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Учителя казахского языка</h1>
+        <p>Мы делаем казахский язык ближе каждому!</p>
+    </header>
+    <nav>
+        <a href="#teachers">Наши учителя</a>
+        <a href="#news">Новости</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+    <section id="teachers">
+        <h2>Наши учителя</h2>
+        <div class="teacher">
+            <img src="teacher1.jpg" alt="Учитель 1">
+            <div>
+                <h3>Айжан Нуркулова</h3>
+                <p>10 лет опыта преподавания. Специалист по современным методикам изучения казахского языка.</p>
+            </div>
+        </div>
+        <div class="teacher">
+            <img src="teacher2.jpg" alt="Учитель 2">
+            <div>
+                <h3>Ержан Амангельдиев</h3>
+                <p>Автор учебных материалов. Подготовил более 500 успешных студентов.</p>
+            </div>
+        </div>
+    </section>
+    <section id="news">
+        <h2>Новости и события</h2>
+        <p>Скоро: семинар по современным методам изучения казахского языка – 15 декабря 2024 года.</p>
+    </section>
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <p>Email: kazakh.language.teachers@example.com</p>
+        <p>Телефон: +7 (777) 123-45-67</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Учителя казахского языка. Все права защищены.</p>
+    </footer>
+</body>
+</html>
